@@ -21,8 +21,8 @@
 进入游戏即出现此界面，界面交互性良好，以热播动画猪猪侠为主题，具有创新性，符合大众审美，配上猪猪侠和斗地主的背景音乐，更具玩乐效果，实现了游戏的本质。
 
 该界面可进行改名、调节声音、创建房间、加入房间、退出操作，如图：
+![image-20231115202334320](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/d3b52058-6b76-40df-928d-acaecff45a61)
 
-![image-20231115202334320](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202334320.png)
 
 改名：更改玩家姓名。
 
@@ -37,62 +37,70 @@
 ## 3.2改名
 
 点击“改名”按钮，如下：
-
-![image-20231115202424222](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202424222.png)
+![image-20231115202424222](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/a116acbc-0fc1-409d-9e49-ecbaf1ea7dd0)
 
 弹出“输入姓名”弹窗，玩家输入姓名即可：
+![image-20231115202439450](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/bdd90610-f09d-4800-b914-1fe543bb26bf)
 
 ![image-20231115202507606](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202507606.png)
 
 若玩家输入姓名为空，弹出警告窗口“输入名字不能为空！”，如下图所示：
+![image-20231115202742312](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/338dbf56-96a9-4b6c-9fe4-5aa0132df8de)
 
-![image-20231115202742312](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202742312.png)
+
 
 当玩家输入非空姓名后，点击“ok”，回到初始界面，此时左上角的姓名已经被修改，如下图所示：
+![image-20231115202536072](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/aaa814cb-b0ba-4375-a182-d4917655ff51)
 
-![image-20231115202536072](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202536072.png)
+
 
 ## 3.3调节声音
 
 点击“调节声音”按钮，弹出声音调节拉条，左右拖动此拉条，即可调节背景音乐大小：
+![image-20231115202604212](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/e34bc86b-b603-4dfb-8fb0-6d76153bc3aa)
 
-![image-20231115202604212](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202604212.png)
+
 
 ## 3.4创建房间
 
 点击创建房间按钮，如下图所示：
+![image-20231115202634035](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/a20e12d0-2b13-4ea4-97ca-1f788e5a76ad)
 
-![image-20231115202634035](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202634035.png)
+
 
 弹出“等待连接。。。”的提示，此时系统正在发送创建房间信号，如下图所示：
+![image-20231115205007439](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/1069b03d-ef24-4ce2-9f35-97757b16cb6c)
 
-![image-20231115205007439](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115205007439.png)
+
 
 ## 3.5加入房间
 
 点击“加入房间”按钮，如下图所示：
+![image-20231115205135664](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/b7bc39ea-c1d8-4268-83d7-a2a5ae0e4fbf)
 
-![image-20231115205135664](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115205135664.png)
+
 
 弹出dialog弹窗，弹窗中间分为三列：序号、姓名、IP。如下图所示：
+![image-20231115202710777](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/97fe7252-7e49-48c0-bbfb-3eb9937e1ed5)
 
-![image-20231115202710777](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202710777.png)
 
 若此时有其他用户发送“创建房间”信号，列表中会显示序号、姓名、IP信息。如下图所示：
+![image-20231115202759832](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/7600ac75-df00-431f-9bfa-8ad2b92b5324)
 
-![image-20231115202759832](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202759832.png)
+
 
 若未选择“房主”，直接点击“加入”按钮，系统则弹出警告窗口“未选择行数”。
+![image-20231115202821773](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/f35604a0-b260-49e1-88db-7c06412c2afe)
 
-![image-20231115202821773](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202821773.png)
 
 选择“房主”，点击“加入”，即可加入房间，等待游戏开始。
 
 ## 3.6开始战斗
 
 点击“开始战斗”按钮，如下图所示：
+![image-20231115202911993](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/d62b29be-67b2-4ca3-bb4a-3a6604811f6b)
 
-![image-20231115202911993](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115202911993.png)
+
 
 随即进入游戏主界面。
 
@@ -101,62 +109,71 @@
 游戏主界面，包含开始游戏按钮、退出按钮、积分、倍数、玩家一姓名、玩家二姓名。
 
 点击“退出”即退出系统，当三个用户都点击“开始游戏”，系统自动发牌，如下图所示：
+![image-20231115203029548](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/490a4130-4cfc-41f8-be2b-c26b65492d4b)
 
-![image-20231115203029548](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203029548.png)
+
 
 ## 3.8叫地主界面
 
 房主界面显示“1分”、“2分”、“3分”和“不要”，房主可以优先选择叫几分或是不叫。
+![image-20231115203110348](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/cf6c30f8-a0c5-4913-bca2-617343dedfbb)
 
-![image-20231115203110348](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203110348.png)
+
 
 ## 3.9出牌界面
 
 叫到地主后，会有以“猪猪侠”为原型的地主和农民形象显示在用户名旁边，同时地主增加三张地主牌，并且优先选择出牌。之后当轮到用户出牌时，用户界面会显示“出牌”与“不出”两个选项
+![image-20231115203209238](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/a6f52fcf-ef6a-4f56-87b5-ba5d4eeb2da3)
 
-![image-20231115203209238](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203209238.png)
+
 
 点击牌button时，牌像素向上移动40像素。
+![image-20231115203611909](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/2e7e00d8-c59c-4f99-b56e-db04ba5b2708)
 
-![image-20231115203611909](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203611909.png)
 
 牌被出出去时，其他牌向左移动30像素。更具观感和美感。
+![image-20231115203402398](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/f1501063-3a10-437f-9136-42921fb6a64b)
 
-![image-20231115203402398](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203402398.png)
+
 
 ## 3.10结算界面
 
 对局结束后，弹出结算窗口，相比于单纯的判定输赢，我们根据地主和农民的倍数以及所叫分数，综合计算出地主和农民的得分。使结果更具直观性。
+![image-20231115203432578](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/e5acb2ab-3683-4aa0-8d6e-0196cc9796c1)
 
-![image-20231115203432578](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115203432578.png)
+
 
 # 四、软件设计
 
 ## 4.1用例模型
+![image-20231115210754987](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/607c88c2-a772-4d6e-a126-f4e8118ea7ad)
 
-![image-20231115210754987](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115210754987.png)
+
 
 ## 4.2流程设计
+![image-20231115210811321](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/15d7521c-e083-48fb-8558-33abd9ae3f5d)
 
-![image-20231115210811321](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115210811321.png)
 
 ## 4.3 ER图
+![image-20231115210904612](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/f6f9f945-15cf-41d3-9c9a-482281dfc780)
 
-![image-20231115210904612](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115210904612.png)
+
 
 ## 4.4部分代码框架
 
 ### 4.4.1整体框架
+![image-20231115211024034](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/467c6246-3a81-40b4-b560-b01931c634da)
 
-![image-20231115211024034](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115211024034.png)
 
 ### 4.4.2开始游戏
+![image-20231115211052108](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/24fa3db4-1f4b-4bde-965e-657b11940b22)
 
-![image-20231115211052108](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115211052108.png)
+
 
 ### 4.4.3实现发牌
+![image-20231115211109712](https://github.com/yanyanlai/GGB-Fight-the-Landlord/assets/110188868/39421630-2b3e-4d2a-94a7-2a31db45341b)
 
-![image-20231115211109712](C:\Users\yanla\AppData\Roaming\Typora\typora-user-images\image-20231115211109712.png)
+
 
 ## 4.5部分关键代码展示
 
